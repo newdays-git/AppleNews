@@ -422,14 +422,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Pravda-MVC/Supports/Pravda-MVC.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2NKCB3S776;
+				DEVELOPMENT_TEAM = 4XKKKM86RN;
 				INFOPLIST_FILE = "$(SRCROOT)/Pravda-MVC/Supports/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.GkFoxes.Pravda;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tubaki-stduios.iOS";
 				PRODUCT_NAME = "Pravda-MVC";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
@@ -443,14 +443,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Pravda-MVC/Supports/Pravda-MVC.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2NKCB3S776;
+				DEVELOPMENT_TEAM = 4XKKKM86RN;
 				INFOPLIST_FILE = "$(SRCROOT)/Pravda-MVC/Supports/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.GkFoxes.Pravda;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tubaki-stduios.iOS";
 				PRODUCT_NAME = "Pravda-MVC";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;

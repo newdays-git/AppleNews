@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18E41FCD2B7409C400AD387B /* SwiftLintFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 18E41FCC2B7409C400AD387B /* SwiftLintFramework */; };
+		18E41FCF2B7409C400AD387B /* swiftlint in Frameworks */ = {isa = PBXBuildFile; productRef = 18E41FCE2B7409C400AD387B /* swiftlint */; };
 		A902F13C25C6D597002E539F /* SpotlightRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A902F13B25C6D597002E539F /* SpotlightRow.swift */; };
 		A902F14025C6D784002E539F /* DetailNewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A902F13F25C6D784002E539F /* DetailNewsView.swift */; };
 		A902F14425C7129E002E539F /* NavBarAppearances.swift in Sources */ = {isa = PBXBuildFile; fileRef = A902F14325C7129E002E539F /* NavBarAppearances.swift */; };
@@ -58,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E41FCF2B7409C400AD387B /* swiftlint in Frameworks */,
+				18E41FCD2B7409C400AD387B /* SwiftLintFramework in Frameworks */,
 				A99A427C25C815CE00A53238 /* PravdaUIKit.framework in Frameworks */,
 				A9EB213125C7ECBF000D133C /* Models.framework in Frameworks */,
 				A9EB212D25C7EB84000D133C /* Constants.framework in Frameworks */,
@@ -190,6 +194,10 @@
 			dependencies = (
 			);
 			name = PravdaSwiftUI;
+			packageProductDependencies = (
+				18E41FCC2B7409C400AD387B /* SwiftLintFramework */,
+				18E41FCE2B7409C400AD387B /* swiftlint */,
+			);
 			productName = PravdaSwiftUI;
 			productReference = A98B723525C3ECEA00390608 /* PravdaSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +225,9 @@
 				Base,
 			);
 			mainGroup = A98B722C25C3ECEA00390608;
+			packageReferences = (
+				18E41FCB2B7409C400AD387B /* XCRemoteSwiftPackageReference "SwiftLint" */,
+			);
 			productRefGroup = A98B723625C3ECEA00390608 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -377,7 +388,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"PravdaSwiftUI/Resources/Preview Content\"";
-				DEVELOPMENT_TEAM = 2NKCB3S776;
+				DEVELOPMENT_TEAM = 4XKKKM86RN;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = PravdaSwiftUI/Supports/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -385,7 +396,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.GkFoxes.PravdaSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tubaki-stduios.iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -399,7 +410,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"PravdaSwiftUI/Resources/Preview Content\"";
-				DEVELOPMENT_TEAM = 2NKCB3S776;
+				DEVELOPMENT_TEAM = 4XKKKM86RN;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = PravdaSwiftUI/Supports/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -407,7 +418,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ru.GkFoxes.PravdaSwiftUI;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tubaki-stduios.iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -436,6 +447,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		18E41FCB2B7409C400AD387B /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/SwiftLint";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.54.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		18E41FCC2B7409C400AD387B /* SwiftLintFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18E41FCB2B7409C400AD387B /* XCRemoteSwiftPackageReference "SwiftLint" */;
+			productName = SwiftLintFramework;
+		};
+		18E41FCE2B7409C400AD387B /* swiftlint */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18E41FCB2B7409C400AD387B /* XCRemoteSwiftPackageReference "SwiftLint" */;
+			productName = swiftlint;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A98B722D25C3ECEA00390608 /* Project object */;
 }
